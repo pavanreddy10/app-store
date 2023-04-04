@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.main-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inner-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 36px;
+  font-weight: bold;
+  color: #1e293b;
+}
+.input-element {
+  font-family: 'Bree Serif';
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  font-size: 14px;
+}
+.search-icon {
+  width: 20px;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #7b8794;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  width: 40%;
+}
